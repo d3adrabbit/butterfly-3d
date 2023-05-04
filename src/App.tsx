@@ -74,7 +74,7 @@ function Model(props: JSX.IntrinsicElements["group"]) {
   }, [leftRef, rightRef]);
 
   const { nodes, materials } = useGLTF(
-    "/butterfly.glb"
+    "/butterfly.json"
   ) as unknown as GLTFResult;
   return (
     <group {...props} dispose={null} ref={groupRef}>
