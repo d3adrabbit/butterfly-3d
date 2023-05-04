@@ -119,7 +119,7 @@ function App() {
           <div
             className="absolute center"
             style={{
-              color: "#14504a",
+              color: "#7a9559",
               fontFamily: "Leckerli One",
             }}
           >
@@ -150,7 +150,7 @@ function App() {
               shadow-mapSize={[512, 512]}
               castShadow
             />
-            <Environment preset="city" />
+            <Environment files={"/forest_slope_1k.hdr"} />
           </Suspense>
         </Canvas>
       </div>
